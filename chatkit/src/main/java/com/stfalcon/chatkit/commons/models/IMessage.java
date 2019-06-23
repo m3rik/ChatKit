@@ -38,6 +38,13 @@ public interface IMessage {
     String getText();
 
     /**
+     * Returns message spanned
+     *
+     * @return the message spanned
+     */
+    String getSpanned();
+
+    /**
      * Returns message author. See the {@link IUser} for more details
      *
      * @return the message author
