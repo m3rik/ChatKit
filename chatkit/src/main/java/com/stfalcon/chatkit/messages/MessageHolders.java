@@ -830,7 +830,11 @@ public class MessageHolders {
             }
 
             if (text != null) {
-                text.setText(message.getText());
+                if(message.getSpanned() != null) {
+                    text.setText(message.getSpanned());
+                } else {
+                    text.setText(message.getText());
+                }
             }
         }
 
