@@ -42,7 +42,7 @@ public interface IMessage {
     /**
      * Returns message spanned
      *
-     * @return the message spanned
+     * @return the message spanned from HTML
      */
     Spanned getSpanned();
 
