@@ -16,6 +16,8 @@
 
 package com.stfalcon.chatkit.commons.models;
 
+import android.text.Spanned;
+
 import java.util.Date;
 
 /**
@@ -42,7 +44,7 @@ public interface IMessage {
      *
      * @return the message spanned
      */
-    String getSpanned();
+    Spanned getSpanned();
 
     /**
      * Returns message author. See the {@link IUser} for more details
